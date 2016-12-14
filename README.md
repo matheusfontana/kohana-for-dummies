@@ -25,6 +25,8 @@ First things first, let's rename the file 'example.htaccess' to '.htaccess'. On 
 
 Bingo! Hello world is shown! :)
 
+## Going back to basics...
+
 ### Example code: from where the 'hello world' is displayed?
 
 Inside the application folder, go into the subfolder named classes. Then go to other subfolder named Controller. You will find a file named 'Welcome.php'. After opening it, you will see the following code structure:
