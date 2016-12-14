@@ -88,17 +88,70 @@ Route::set('default', '(<controller>(/<action>(/<id>)))')
 ## First code
 Let's create our first piece of code, simple and quite similar to the default one.
 
-+ Add a new route into the routes.php file we created recently.
++ Add new routes into the routes.php file we created recently.
 ```php
-#bootstrap.php
-include APPPATH.'/config/routes'.EXT;
-
 #application/config/routes.php
-Route::set('default', '(<controller>(/<action>(/<id>)))')
+Route::set('dummy_default', '(<controller>(/<action>))')
 	->defaults(array(
-		'controller' => 'welcome',
+		'controller' => 'dummy',
 		'action'     => 'index',
 ));
+
+Route::set('dummy_plus_welcome', '(<controller>(/<action>))')
+	->defaults(array(
+		'controller' => 'dummy',
+		'action'     => 'welcome',
+));
+```
+
++ Create a new controller called Dummy, as our new routes above exemplify.
+```php
+#application/classes/Controlller/Dummy.php
+<?php defined('SYSPATH') or die('No direct script access.');
+
+class Controller_Dummy extends Controller {
+
+	public function action_index()
+	{
+		$this->response->body('hello, dummy!');
+	}
+
+	public function action_welcome()
+	{
+		//We will use it later
+	}
+
+} // End
+```
+If you access 'localhost/folder_name_you_gave/dummy', you should be able to see a 'hello, dummy!' message displayed. That's nice to start, but let's go a bit further now. Let's create a view, displaying the message with some CSS styling.
+
++ Create a file inside applications/views named 'home.php' with the following content:
+```html
+<html>
+    <head>
+        <title>We've got a message for you!</title>
+        <style type="text/css">
+            body {font-family: Georgia;}
+            p {font-style: italic;color: #ff0000;}
+ 
+        </style>
+    </head>
+    <body>
+        <p><?php echo $message; ?></p>
+    </body>
+</html>
+```
+
++ Replace your Controller_Welcome class code with:
+```php
+class Controller_Welcome extends Controller_Template {
+	public $template = 'home';
+
+	public function action_index()
+	{
+		$this->template->message = "Welcome to kohana-for-dummies";
+	}
+}
 ```
 
 ## Links for further reading about Kohana
