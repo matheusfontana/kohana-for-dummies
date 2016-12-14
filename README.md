@@ -5,15 +5,16 @@ A repository intended to help people new to Kohana! A brief description about Ko
 
 >Released under a [BSD license](http://kohanaframework.org/license), Kohana can be used legally for any open source, commercial, or personal project.
 
-## Getting started
+## Getting started: What this repo is up to?
+Coming soon.
+
+## Downloading and configuring the framework
 
 First of all, let's download Kohana. In this tutorial we will use v3.3.3.1. [Download it from github](https://github.com/kohana/kohana/releases/download/v3.3.3.1/kohana-3.3.3.1.zip)
 
 Open the compressed file and extract the folder into your www or htdocs directory. Rename the folder to whatever name you want.
 
 In your browser, access 'localhost/folder_name_you_gave'. You should see the Kohana test page, which will supposedly tell you "✔ Your environment passed all requirements. Remove or rename the install.php file now." within a green box. Do what the box tells you to do, rename the file (I renamed to __install.php), and let's start coding :)
-
-## Example code
 
 By default, Kohana has a welcome test page that will say "hello, world!", but we need to do some configuration ;)
 
@@ -24,7 +25,7 @@ First things first, let's rename the file 'example.htaccess' to '.htaccess'. On 
 
 Bingo! Hello world is shown! :)
 
-### From where the 'hello world' is displayed?
+### Example code: from where the 'hello world' is displayed?
 
 Inside the application folder, go into the subfolder named classes. Then go to other subfolder named Controller. You will find a file named 'Welcome.php'. After opening it, you will see the following code structure:
 
