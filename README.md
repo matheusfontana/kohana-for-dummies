@@ -1,7 +1,5 @@
 # Kohana for Dummies!
-A repository intended to help people new to Kohana!
-
-A brief description about Kohana taken from [Kohana's GitHub!](https://github.com/kohana/)
+A repository intended to help people new to Kohana! A brief description about Kohana taken from [Kohana's GitHub.](https://github.com/kohana/)
 
 >[Kohana](http://kohanaframework.org/) is an elegant, open source, and object oriented HMVC framework built using PHP5, by a team of volunteers. It aims to be swift, secure, and small.
 
