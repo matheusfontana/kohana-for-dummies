@@ -98,3 +98,8 @@ Route::set('default', '(<controller>(/<action>(/<id>)))')
 ));
 ```
 
+## Links for further reading about Kohana
++ [Kohana Official Documentation for version 3.3](https://kohanaframework.org/3.3/guide/)
++ [Digital Ocean Tutorials Part 1](https://www.digitalocean.com/community/tutorials/how-to-install-and-setup-kohana-a-php-web-application-development-framework#kohana-framework)
++ [Digital Ocean Tutorials Part 2](https://www.digitalocean.com/community/tutorials/how-to-build-web-applications-with-hmvc-php5-framework-kohana#controller-c-of-the-mvc-pattern)
+
