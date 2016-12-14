@@ -129,7 +129,7 @@ If you access 'localhost/folder_name_you_gave/dummy', you should be able to see 
 ```html
 <html>
     <head>
-        <title>We've got a message for you!</title>
+        <title>Kohana for dummies</title>
         <style type="text/css">
             body {font-family: Georgia;}
             p {font-style: italic;color: #ff0000;}
