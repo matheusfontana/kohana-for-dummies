@@ -9,5 +9,6 @@
     </head>
     <body>
         <p><?php echo $message; ?></p>
+        <div><?php echo $footer; ?></div>
     </body>
 </html>
