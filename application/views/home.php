@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>We've got a message for you!</title>
+        <title>Kohana for dummies</title>
         <style type="text/css">
             body {font-family: Georgia;}
             p {font-style: italic;color: #ff0000;}

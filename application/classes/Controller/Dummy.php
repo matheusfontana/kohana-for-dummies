@@ -9,7 +9,11 @@ class Controller_Dummy extends Controller {
 
 	public function action_welcome()
 	{
-		//We will use it later
+		$view = Request::factory('welcome')->execute();
+	 
+	    $about_page = (string) $view;
+	 
+	    $this->response->body($about_page);
 	}
 
 } // End
