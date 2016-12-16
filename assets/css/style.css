@@ -6,7 +6,11 @@ body{
 	font-weight: 600;
 }
 
-#planes .panel-footer{
+body > .container{
+	min-height: calc(100% - 41px);
+}
+
+#data .panel-footer{
 	display: table;
 	width: 100%;
 }
@@ -14,4 +18,18 @@ body{
 .photobox-text{
 	display: table-cell;
 	vertical-align: middle;
+}
+
+footer{
+	min-height: 40px;
+	background-color:#000;
+	width: 100%;
+	bottom: 0;
+	position: relative;
+}
+
+footer p{
+	color:#FFF; 
+	padding:10px 0; 
+	margin-bottom:0px;
 }

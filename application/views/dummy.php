@@ -3,7 +3,7 @@
     <body>
         <div class="container">
         	<?php echo $content; ?>
-        	<?php echo $footer; ?>
         </div>
+        <?php echo $footer; ?>
     </body>
 </html>

@@ -228,3 +228,48 @@
 #8 C:\projetos\kohana-for-dummies\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
 #9 C:\projetos\kohana-for-dummies\index.php(118): Kohana_Request->execute()
 #10 {main} in C:\projetos\kohana-for-dummies\application\views\dummy.php:2
+2016-12-16 17:47:41 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: content2 ~ APPPATH\classes\Controller\Dummy.php [ 51 ] in C:\projetos\kohana-for-dummies\application\classes\Controller\Dummy.php:51
+2016-12-16 17:47:41 --- DEBUG: #0 C:\projetos\kohana-for-dummies\application\classes\Controller\Dummy.php(51): Kohana_Core::error_handler(8, 'Undefined varia...', 'C:\\projetos\\koh...', 51, Array)
+#1 C:\projetos\kohana-for-dummies\system\classes\Kohana\Controller.php(84): Controller_Dummy->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 C:\projetos\kohana-for-dummies\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Dummy))
+#4 C:\projetos\kohana-for-dummies\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 C:\projetos\kohana-for-dummies\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#6 C:\projetos\kohana-for-dummies\index.php(118): Kohana_Request->execute()
+#7 {main} in C:\projetos\kohana-for-dummies\application\classes\Controller\Dummy.php:51
+2016-12-16 17:47:52 --- CRITICAL: ErrorException [ 1 ]: Method View::__toString() must not throw an exception ~ APPPATH\classes\Controller\Dummy.php [ 0 ] in file:line
+2016-12-16 17:47:52 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-16 17:51:50 --- CRITICAL: ErrorException [ 1 ]: Method View::__toString() must not throw an exception ~ APPPATH\classes\Controller\Dummy.php [ 0 ] in file:line
+2016-12-16 17:51:50 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-16 17:51:51 --- CRITICAL: ErrorException [ 1 ]: Method View::__toString() must not throw an exception ~ APPPATH\classes\Controller\Dummy.php [ 0 ] in file:line
+2016-12-16 17:51:51 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-16 17:51:51 --- CRITICAL: ErrorException [ 1 ]: Method View::__toString() must not throw an exception ~ APPPATH\classes\Controller\Dummy.php [ 0 ] in file:line
+2016-12-16 17:51:51 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-16 17:51:51 --- CRITICAL: ErrorException [ 1 ]: Method View::__toString() must not throw an exception ~ APPPATH\classes\Controller\Dummy.php [ 0 ] in file:line
+2016-12-16 17:51:51 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-16 17:51:51 --- CRITICAL: ErrorException [ 1 ]: Method View::__toString() must not throw an exception ~ APPPATH\classes\Controller\Dummy.php [ 0 ] in file:line
+2016-12-16 17:51:51 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-16 17:51:52 --- CRITICAL: ErrorException [ 1 ]: Method View::__toString() must not throw an exception ~ APPPATH\classes\Controller\Dummy.php [ 0 ] in file:line
+2016-12-16 17:51:52 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-16 17:51:52 --- CRITICAL: ErrorException [ 1 ]: Method View::__toString() must not throw an exception ~ APPPATH\classes\Controller\Dummy.php [ 0 ] in file:line
+2016-12-16 17:51:52 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-16 17:52:25 --- CRITICAL: ErrorException [ 1 ]: Can only throw objects ~ APPPATH\classes\Controller\Dummy.php [ 65 ] in file:line
+2016-12-16 17:52:25 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-12-16 17:52:35 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: content ~ APPPATH\classes\Controller\Dummy.php [ 61 ] in C:\projetos\kohana-for-dummies\application\classes\Controller\Dummy.php:61
+2016-12-16 17:52:35 --- DEBUG: #0 C:\projetos\kohana-for-dummies\application\classes\Controller\Dummy.php(61): Kohana_Core::error_handler(8, 'Undefined varia...', 'C:\\projetos\\koh...', 61, Array)
+#1 C:\projetos\kohana-for-dummies\system\classes\Kohana\Controller.php(84): Controller_Dummy->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 C:\projetos\kohana-for-dummies\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Dummy))
+#4 C:\projetos\kohana-for-dummies\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 C:\projetos\kohana-for-dummies\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#6 C:\projetos\kohana-for-dummies\index.php(118): Kohana_Request->execute()
+#7 {main} in C:\projetos\kohana-for-dummies\application\classes\Controller\Dummy.php:61
