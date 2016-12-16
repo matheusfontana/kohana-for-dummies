@@ -1,8 +1,17 @@
 body{
 	margin:0 auto;
 	padding:0 auto;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
 }
 
-.plane{
-	text-align: center;
+#planes .panel-footer{
+	display: table;
+	width: 100%;
+}
+
+.photobox-text{
+	display: table-cell;
+	vertical-align: middle;
 }

@@ -5,6 +5,15 @@ class Controller_Welcome extends Controller_Template {
 
 	public function action_index()
 	{
-		$this->template->message = "Welcome to kohana-for-dummies";
+		$header = View::factory('blocks/header');
+        $header->set('title', 'Kohana for dummies');
+        $this->template->set('header', $header);
+        
+		$footer = View::factory('blocks/footer');
+		$this->template->set('footer', $footer);
+
+		$content = "<p>manHattan</p>";
+		$this->template->set('content', $content);
+
 	}
 } // End Welcome

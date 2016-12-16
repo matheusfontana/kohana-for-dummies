@@ -1,14 +1,9 @@
 <html>
-    <head>
-        <title>Kohana for dummies</title>
-        <style type="text/css">
-            body {font-family: Georgia;}
-            p {font-style: italic;color: #ff0000;}
- 
-        </style>
-    </head>
+    <?php echo $header; ?>
     <body>
-        <p><?php echo $message; ?></p>
-        <div><?php echo $footer; ?></div>
+        <div class="container">
+            <?php echo $content; ?>
+            <?php echo $footer; ?>
+        </div>
     </body>
 </html>
