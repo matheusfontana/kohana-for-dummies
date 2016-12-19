@@ -7,7 +7,7 @@ class Controller_Dummy extends Controller_Template {
 	{
 		try{
 			$header = View::factory('blocks/header');
-	        $header->set('title', 'Racing');
+	        $header->set('title', 'DUMMY');
 
 	        $cars = array(
 	        	array(
