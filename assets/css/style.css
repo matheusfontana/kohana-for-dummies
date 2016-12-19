@@ -1,0 +1,35 @@
+body{
+	margin:0 auto;
+	padding:0 auto;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+body > .container{
+	min-height: calc(100% - 41px);
+}
+
+#data .panel-footer{
+	display: table;
+	width: 100%;
+}
+
+.photobox-text{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+footer{
+	min-height: 40px;
+	background-color:#000;
+	width: 100%;
+	bottom: 0;
+	position: relative;
+}
+
+footer p{
+	color:#FFF; 
+	padding:10px 0; 
+	margin-bottom:0px;
+}
